@@ -37,7 +37,7 @@ while True:
     print 'connect',len(cs)
     for csd in cs:
         try:
-            csd.send('io')
+            csd.send('aoijehq89u'*10)
         except KeyboardInterrupt,error:
             for i in range(len(cs)):
                 try:
