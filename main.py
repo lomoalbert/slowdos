@@ -49,7 +49,3 @@ while True:
             break
         except:
             cs.remove(csd)
-    try:
-        time.sleep(1)
-    except:
-        pass
